@@ -1,4 +1,5 @@
 class TasksController < ApplicationController
+
   def index
     @tasks = Task.all
   end
@@ -8,4 +9,9 @@ class TasksController < ApplicationController
     task.save
     redirect_to({ :action => :index})
 	end
+
+  def show
+    @task = Task.find(params[:id])
+  end
+
 end

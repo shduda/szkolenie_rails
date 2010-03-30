@@ -1,0 +1,18 @@
+<h1>Task:</h1>
+<table>
+<tr>
+<td><b>Title:</b></td>
+<td><%= @task.title %></td>
+</tr>
+<tr>
+<td><b>Description:</b></td>
+<td><%= @task.description %></td>
+</tr>
+<tr>
+<td><b>Data dodania:</b></td>
+<td><%= @task.created_at.strftime(fmt = "%d.%m.%Y") %></td>
+</tr>
+</table>
+<br>
+
+<%= link_to("[index]", :action => 'index')%>

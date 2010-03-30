@@ -684,3 +684,228 @@ Processing TasksController#index (for 127.0.0.1 at 2010-03-21 21:05:06) [GET]
 Rendering tasks/index
   [4;36;1mTask Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
 Completed in 12ms (View: 5, DB: 1) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-03-23 18:18:44) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (28.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 85ms (View: 4, DB: 33) | 200 OK [http://localhost/rails/info/properties]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-23 18:18:48) [GET]
+  [4;36;1mTask Load (0.4ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 232ms (View: 223, DB: 1) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (7.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-30 10:42:43) [GET]
+
+ActionController::RoutingError (No route matches "/task" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:42:45) [GET]
+  [4;36;1mTask Load (17.4ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 149ms (View: 114, DB: 19) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (9.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-30 10:42:52) [GET]
+
+ActionController::RoutingError (No route matches "/show" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-30 10:42:58) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Task without an ID):
+  app/controllers/tasks_controller.rb:14:in `show'
+
+Rendered rescues/_trace (48.1ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-30 10:52:55) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Task without an ID):
+  app/controllers/tasks_controller.rb:14:in `show'
+
+Rendered rescues/_trace (43.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:52:58) [GET]
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:57:22) [GET]
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 21ms (View: 12, DB: 5) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (7.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-30 10:57:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTask Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.2ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 1) [0m
+Rendering tasks/show
+Completed in 182ms (View: 174, DB: 8) | 200 OK [http://localhost/tasks/show/1]
+  [4;36;1mSQL (10.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-30 10:57:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTask Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.1ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 1) [0m
+Rendering tasks/show
+Completed in 12ms (View: 2, DB: 11) | 200 OK [http://localhost/tasks/show/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:57:35) [GET]
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 12ms (View: 4, DB: 1) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-30 10:57:35) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mTask Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 2) [0m
+Rendering tasks/show
+Completed in 10ms (View: 2, DB: 4) | 200 OK [http://localhost/tasks/show/2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:57:36) [GET]
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 11ms (View: 4, DB: 4) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (9.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-30 10:57:37) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTask Columns (6.1ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 3) [0m
+Rendering tasks/show
+Completed in 17ms (View: 2, DB: 16) | 200 OK [http://localhost/tasks/show/3]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:57:38) [GET]
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 12ms (View: 4, DB: 4) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (9.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-30 10:57:39) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mTask Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.2ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 4) [0m
+Rendering tasks/show
+Completed in 12ms (View: 2, DB: 11) | 200 OK [http://localhost/tasks/show/4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:57:40) [GET]
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-30 10:57:42) [GET]
+Rendering tasks/new
+Completed in 13ms (View: 10, DB: 3) | 200 OK [http://localhost/tasks/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:57:44) [GET]
+  [4;36;1mTask Load (0.2ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 12ms (View: 4, DB: 1) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (7.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#new (for 127.0.0.1 at 2010-03-30 10:58:46) [GET]
+Rendering tasks/new
+Completed in 6ms (View: 3, DB: 8) | 200 OK [http://localhost/tasks/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:58:47) [GET]
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/tasks]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (12.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-03-30 10:58:48) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mTask Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 5) [0m
+Rendering tasks/show
+Completed in 18ms (View: 2, DB: 18) | 200 OK [http://localhost/tasks/show/5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-03-30 10:58:53) [GET]
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM `tasks` [0m
+Rendering tasks/index
+  [4;35;1mTask Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/tasks]
